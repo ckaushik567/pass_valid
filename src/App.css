@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.main-container{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+input{
+  width: 20vw;
+  padding: 20px 5px;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 6px;
+  outline: none;
+  color: white;
+  font-size: 20px;
+}
+
+.inputbox{
+  margin-top: 30px;
+}
+.inputbox label{
+  margin-right: 20px;
+   font-size: 20px;
+   color: white;
+}
+h1{
+  color: red;
+  margin-top: 20px;
+}
